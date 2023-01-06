@@ -5,7 +5,7 @@ public class Main {
         int max = arr[0];
         for (int x : arr) {
             sum += x;
-            if( max < x) {
+            if(max < x) {
                 max = x;
             }
         }
